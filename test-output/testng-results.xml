@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ebay.in automation suite" duration-ms="85714" started-at="2019-05-31T07:01:08Z" finished-at="2019-05-31T07:02:34Z">
+    <groups>
+    </groups>
+    <test name="Search Products Test" duration-ms="31864" started-at="2019-05-31T07:01:08Z" finished-at="2019-05-31T07:01:40Z">
+      <class name="ebay.in.tests.SearchProductTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:ebay.in.tests.SearchProductTests@1baeedf]" name="setUpTest" is-config="true" duration-ms="1" started-at="2019-05-31T07:01:08Z" finished-at="2019-05-31T07:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ebay.in.tests.SearchProductTests@1baeedf]" name="beforeMethod" is-config="true" duration-ms="1519" started-at="2019-05-31T07:01:08Z" finished-at="2019-05-31T07:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="simpleSearchProduct()[pri:0, instance:ebay.in.tests.SearchProductTests@1baeedf]" name="simpleSearchProduct" duration-ms="9740" started-at="2019-05-31T07:01:09Z" finished-at="2019-05-31T07:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleSearchProduct -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ebay.in.tests.SearchProductTests@1baeedf]" name="beforeMethod" is-config="true" duration-ms="1974" started-at="2019-05-31T07:01:19Z" finished-at="2019-05-31T07:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchProductByCategory()[pri:1, instance:ebay.in.tests.SearchProductTests@1baeedf]" name="searchProductByCategory" duration-ms="6730" started-at="2019-05-31T07:01:21Z" finished-at="2019-05-31T07:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductByCategory -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ebay.in.tests.SearchProductTests@1baeedf]" name="beforeMethod" is-config="true" duration-ms="1744" started-at="2019-05-31T07:01:28Z" finished-at="2019-05-31T07:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchProductFromPopularDestinationsSection()[pri:2, instance:ebay.in.tests.SearchProductTests@1baeedf]" name="searchProductFromPopularDestinationsSection" duration-ms="10107" started-at="2019-05-31T07:01:30Z" finished-at="2019-05-31T07:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductFromPopularDestinationsSection -->
+      </class> <!-- ebay.in.tests.SearchProductTests -->
+    </test> <!-- Search Products Test -->
+    <test name="Buy Products Test" duration-ms="53743" started-at="2019-05-31T07:01:40Z" finished-at="2019-05-31T07:02:34Z">
+      <class name="ebay.in.tests.BuyProductTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ebay.in.tests.BuyProductTests@12108b5]" name="setUp" is-config="true" duration-ms="22991" started-at="2019-05-31T07:00:45Z" finished-at="2019-05-31T07:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="returnToHomePage()[pri:0, instance:ebay.in.tests.BuyProductTests@12108b5]" name="returnToHomePage" is-config="true" duration-ms="1630" started-at="2019-05-31T07:01:40Z" finished-at="2019-05-31T07:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHomePage -->
+        <test-method status="PASS" signature="returnToHome()[pri:0, instance:ebay.in.tests.BuyProductTests@12108b5]" name="returnToHome" is-config="true" duration-ms="11" started-at="2019-05-31T07:01:42Z" finished-at="2019-05-31T07:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHome -->
+        <test-method status="PASS" signature="buyProductAfterSimpleSearch()[pri:1, instance:ebay.in.tests.BuyProductTests@12108b5]" name="buyProductAfterSimpleSearch" duration-ms="23813" started-at="2019-05-31T07:01:42Z" finished-at="2019-05-31T07:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductAfterSimpleSearch -->
+        <test-method status="PASS" signature="returnToHome()[pri:0, instance:ebay.in.tests.BuyProductTests@12108b5]" name="returnToHome" is-config="true" duration-ms="1423" started-at="2019-05-31T07:02:05Z" finished-at="2019-05-31T07:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHome -->
+        <test-method status="PASS" signature="buyProductAfterCategoryBasedSearch()[pri:2, instance:ebay.in.tests.BuyProductTests@12108b5]" name="buyProductAfterCategoryBasedSearch" duration-ms="26859" started-at="2019-05-31T07:02:07Z" finished-at="2019-05-31T07:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductAfterCategoryBasedSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebay.in.tests.BuyProductTests@12108b5]" name="tearDown" is-config="true" duration-ms="1010" started-at="2019-05-31T07:02:34Z" finished-at="2019-05-31T07:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ebay.in.tests.BuyProductTests -->
+    </test> <!-- Buy Products Test -->
+  </suite> <!-- Ebay.in automation suite -->
+</testng-results>

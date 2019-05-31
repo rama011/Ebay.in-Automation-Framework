@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ebay.in automation suite">
+	<test name="Search Products Test">
+		<classes>
+			<class name="ebay.in.tests.SearchProductTests" />
+		</classes>
+	</test>
+	<test name="Buy Products Test">
+		<classes>
+			<class name="ebay.in.tests.BuyProductTests" />
+		</classes>
+	</test>
+</suite>
