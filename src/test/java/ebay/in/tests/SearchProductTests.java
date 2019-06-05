@@ -24,9 +24,14 @@ public class SearchProductTests extends BaseClass {
 	
 	@BeforeMethod
 	public void beforeMethod() {
+		System.out.println("Before Method......");
 		hp.clickOnEbayLogo();
 	}
 	
+	@Test
+	public void verifyNavbarElements() {
+		  hp.verifyNavbarElement("home");
+	}
 	
 	@Test(priority=0)
 	public void simpleSearchProduct() {

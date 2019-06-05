@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Ebay.in automation suite]">
-  <test thread-count="5" name="Buy Products Test(failed)">
+  <listeners>
+    <listener class-name="ebay.in.utils.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Home Page Tests(failed)">
     <classes>
-      <class name="ebay.in.tests.BuyProductTests">
+      <class name="ebay.in.tests.HomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="buyProductAfterCategoryBasedSearch"/>
-          <include name="returnToHomePage"/>
+          <include name="beforeTest"/>
+          <include name="testTitle"/>
+          <include name="afterTest"/>
+          <include name="verifyCarouselElements"/>
+          <include name="beforeMethod"/>
           <include name="tearDown"/>
-          <include name="buyProductAfterSimpleSearch"/>
-          <include name="returnToHome"/>
         </methods>
-      </class> <!-- ebay.in.tests.BuyProductTests -->
+      </class> <!-- ebay.in.tests.HomePageTest -->
     </classes>
-  </test> <!-- Buy Products Test(failed) -->
+  </test> <!-- Home Page Tests(failed) -->
 </suite> <!-- Failed suite [Ebay.in automation suite] -->

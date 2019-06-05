@@ -1,13 +1,22 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Ebay.in automation suite">
-	<test name="Search Products Test">
+	<listeners>
+		<listener class-name="ebay.in.utils.ListenerClass"/>
+	</listeners>
+	<test name="Home Page Tests">
 		<classes>
-			<class name="ebay.in.tests.SearchProductTests" />
+			<class name="ebay.in.tests.HomePageTest">
+				<methods>
+					<include name="testTitle"/>
+					<include name="verifyNavBarElements"/>
+					<include name="verifyCarouselElements"/>
+				</methods>
+			</class>
 		</classes>
 	</test>
-	<test name="Buy Products Test">
+	<!-- <test name="Buy Products Test">
 		<classes>
 			<class name="ebay.in.tests.BuyProductTests" />
 		</classes>
-	</test>
+	</test>-->
 </suite>
